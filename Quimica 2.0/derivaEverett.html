@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>Derivación con Everett</title>
+	<script type="text/javascript" src="metodos.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.nav{height: 55px;}
+		.nav td{padding-left: 60px;}
+		.nav a{text-decoration: none;}
+		.enlace{font-size: 40px;margin-left: -40px;margin-top: -8px;cursor: pointer;}
+		.input{
+			border-radius:5px;
+			font-size:20px;
+			height:30px;
+			background:#fafafa;
+			border:1px solid #c8c8c8;
+			-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.6),inset 0 0 3px 0 rgba(0,0,0,0.1);
+			-webkit-box-sizing:border-box;
+			font:italic 300 1rem/1.6rem Georgia,Cambria,"Times New Roman",Times,serif;
+			padding:5px 12px;
+			vertical-align:top;
+			margin:10px;
+			-webkit-font-smoothing:antialiased;
+			-webkit-transition:all 0.7s;
+		}
+	</style>
+</head>
+<body onload="setOption(12)">
+	<div class="title">
+		<span class="ilogo" style="font-size: 70px;margin-left: -80px;margin-top: -15px;">&#xe619</span>
+		Ingenieria de Petroleo y Gas Natural
+	</div>
+	<center>
+		<center>
+		<table class="menu">
+			<tr>
+				<th colspan="6" class="menu_title">Derivación con Everett</th>
+			</tr>
+		</table>
+		</center>
+	<table class="menu nav">
+		<tr>
+			<td class="iletter">
+				<a href="index.html"> <span class="ilogo enlace">&#xe687</span> Volver a Menu</a>
+			</td>
+		</tr>
+	<table>
+	</center>
+<center>
+	<div class="uno">
+		<table>
+			<tr>
+				<td class="iletter2" style="font-size:20px;font-weight: bolder;">x:</td>
+				<td class="iletter2" style="font-size:20px;font-weight: bolder;">y:</td>
+				<td class="iletter2" style="font-size:20px;font-weight: bolder;">n:</td>
+			</tr>	
+			<tr>
+				<td><input type="text" id="x" class="input" style="width:180px;" placeholder="Valor de Prueba"></td>
+				<td><textarea id="y" class="input" spellcheck='false' style="width:250px;height:50px;" placeholder="Escriba la funcion en JS"></textarea></td>
+				<td><input type="text" id="n" class="input" style="width:180px;" placeholder="Cantidad de Datos"></td>
+				<td><input type="button" value="Generar" onclick="generar()"></td>
+			</tr>	
+		</table>
+		<div id="tabla">
+
+		</div>	
+	</div>
+	<div id="resultado"></div>
+</center>
+</body>
+</html>

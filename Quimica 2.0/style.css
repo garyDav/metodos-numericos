@@ -1,0 +1,105 @@
+		@font-face {
+			font-family: 'Indie Flower';
+			font-style: normal;
+			font-weight: 400;
+			src: local('Indie Flower'), local('IndieFlower'), url(fonts/10JVD_humAd5zP2yrFqw6jy24DTBG-RpCwXaYkM4aks.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+		@font-face {
+			font-weight: normal;
+			font-style: normal;
+			font-family: 'stroke7pixeden';
+			src:url('stroke/Pe-icon-7-stroke.eot?u58ytb');
+			src:url('stroke/Pe-icon-7-stroke.eot?#iefixu58ytb') format('embedded-opentype'),
+				url('stroke/Pe-icon-7-stroke.woff?u58ytb') format('woff'),
+				url('stroke/Pe-icon-7-stroke.ttf?u58ytb') format('truetype'),
+				url('stroke/Pe-icon-7-stroke.svg?u58ytb#stroke7pixeden') format('svg');
+		}
+		@font-face {
+		  font-family: 'Titillium Web';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(fonts/7XUFZ5tgS-tD6QamInJTcRnhefaTZMTJ3r9AXhRp6aM.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+		.ilogo{
+			font-family: 'stroke7pixeden';
+			position: absolute;
+		}
+		.iletter{
+			font-family: 'Titillium Web';
+		}
+		.iletter2{
+			font-family: 'Indie Flower';
+		}
+		body{
+			background: #e9ebed;
+			margin: 0 auto;
+			overflow-x:hidden;
+			width: 100%;
+			height: 100%;
+		}
+		.title{
+			width: 100%;
+		    background: url("img/banner.jpg") no-repeat;
+		    background-size: cover;
+		    box-shadow: 0px 4px 16px #000;
+		    color: white;
+		    font-family: 'Indie Flower';
+		    font-size: 40px;
+		    height: 2em;
+		    margin-bottom: 15px;
+		    padding-bottom: 25px;
+		    padding-top: 25px;
+		    text-align: center;
+		    text-shadow: 0px 1px 1px #000;
+		}
+		.menu{
+			width: 80%;
+			margin-top: 50px;
+		}
+		.menu_title{
+			height: 80px;
+			font-family: 'Indie Flower';
+			font-size: 30px;
+			background: #fff;
+			color: #0C0C0B;
+			padding-right: 20px;
+    		box-shadow: 1px 2px 15px #2d2d2d;
+		}
+		.menu_subtitle{
+			height: 50px;
+			font-family: 'Indie Flower';
+			color:#fff;
+			font-size: 20px;
+			text-align: left;
+			padding-left: 70px;
+		}
+		.item{
+		    width: 170px;
+		    height: 50px;
+		    border:1px solid white;
+		    border-radius: 10px;
+		    font-family: 'Titillium Web';
+		    font-size: 19px;
+		    word-wrap: break-word;
+		    text-align: center;
+		    background: #2d2d2d;
+		    cursor: pointer;
+		    -webkit-transition: all 0.5s ease-out;
+		    -moz-transition: all 0.5s ease-out;
+		    -o-transition: all 0.5s ease-out;
+		    transition: all 0.5s ease-out;
+		}
+		.item:hover{
+			-webkit-transform:scale(1.1,1.1);
+			-moz-transform:scale(1.1,1.1);
+			-o-transform:scale(1.1,1.1);
+			transform:scale(1.1,1.1);
+		}
+		.item:active{
+			-webkit-transform:scale(1,1);
+			-moz-transform:scale(1,1);
+			-o-transform:scale(1,1);
+			transform:scale(1,1);
+		}
